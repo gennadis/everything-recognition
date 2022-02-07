@@ -29,7 +29,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Run
+4. Run (press 'q' for quit)
 ```bash
 python run.py
 ```
@@ -41,6 +41,8 @@ Program settings that can be tweaked in `config.py`:
 - other pre-trained cascades can be added in `config.py` from haarcascades folder (look for `.xml` files)
 
 ---
+
+## Modules
 
 ### is_user_wants_quit()
 Check if 'q' key is pressed
